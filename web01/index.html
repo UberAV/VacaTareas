@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Web01</title>
 	<link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
 	<header>
@@ -11,7 +12,7 @@
 			<img src="img/logo.png" alt="logo">
 		</div>
 	
-    <nav>
+    <nav class="menu">
     	<ul>
     		<li>Inicio</li>
     		<li>Trayectoria</li>
@@ -25,13 +26,13 @@
     <article>
     	<section>
     		<h3>Reproductor de MP3</h3>
-    		<audio src="Tema01.mp3" controls autoplay loop>
+    		<audio src="Tema01.mp3" controls loop>
     			<p>Actualiza tu navgador</p>
     		</audio>
     	</section>
     	<section>
     		<h3>Reproductor de videos</h3>
-    		<video src="video01.mp4" controls autoplay width="400px"></video>
+    		<video src="video01.mp4" controls width="400px"></video>
     	</section>
     </article>
     <footer></footer>

@@ -8,30 +8,34 @@ header {
 	position: relative;
 	height: 80px;
 }
-header .logo img{
-	width: 210px;
-}
+
 .logo{
     position: absolute;
     right: 10px;
-    top: 20px;
+    top: 5px;
 }
 
 .menu{
 	position: absolute;
     right: 10px;
-    top: 20px;
+    top: 25px;
 }
 
-header .menu ul li{
+header .logo img{
+	width: 150px;
+}
+
+.menu ul li{
 	display: inline-block;
 	text-align: right;
 	padding: 5px 10px 10px 10px;
 }
-
-header .menu ul li{
+.menu ul li{
 	background-color: #08A364;
 }
+
+
+
 
 fieldset{
 	border: 1px solid #08A364;
@@ -75,5 +79,12 @@ input [type=sumit]{
 
 input[type=submit]:hover{
 	background-color: #08A364;
+
+}
+
+//////
+
+.container{
+	font-size: 1.2em;
 
 }
